@@ -18,5 +18,5 @@ while True:
 	frame=cv2.flip(frame,1)
 	
 	stframe.image(frame,channels='GRAY',output_format="JPEG")
-	sttext.write("happy")
+
 
